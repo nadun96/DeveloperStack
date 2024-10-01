@@ -1,0 +1,39 @@
+00:04:50	Udara:	ahenw aiye
+00:04:53	Ushan Rashmika:	yes
+00:04:54	Sajee:	owu sir
+00:04:56	Ramesh Muthukumarana:	y
+00:05:52	AM Web Designers and Developers:	yes
+00:06:30	Ramesh Muthukumarana:	apith puluvada
+00:06:35	Madusha Lakshan:	Sir ape JAVA yanne mona dawas waladida?
+00:07:36	yasith Dilshan NH 05:	folder aka git akata danna puluvanda
+00:08:11	Seekers Cloud:	<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title>    <link rel="stylesheet"     href="main.css"></head><body></body></html>
+00:08:29	Madusha Lakshan:	Ok Sir thank you
+00:20:46	Udara:	yes
+00:23:23	Madusha Lakshan:	Yess
+00:23:27	Udara:	yess
+00:24:42	jayasanka:	aye, industry eke and ayya use krnne px values da hamadeyaktma use krnne, nattam wena wenma units use krnwada width and height walta wenma font sizes walta wena wema units use wenwada
+00:26:22	jayasanka:	hri
+00:34:50	Ramesh Muthukumarana:	java gamu
+00:35:00	Sanjeewa Deshappriya:	project ekk karamu
+00:35:07	buddhika:	js karamu
+00:35:12	Gayal Kumara:	java karamu
+00:35:12	sewwandi:	project ekak karamu
+00:35:42	jayasanka:	project ekak kramu
+00:38:28	sewwandi:	project ekak karala homework demu neda
+00:39:57	Ramesh Muthukumarana:	i
+00:40:04	sewwandi:	thank you sir
+00:41:17	AM Web Designers and Developers:	each loop eke code eka danna
+00:41:56	Seekers Cloud:	@each $temp in green,red,blue{    .#{$temp}-element{        background-color: $temp;    }}
+00:44:35	Madusha Lakshan:	Map kiyanne HashMap wage ekk neda meketh wenne sir?
+00:44:35	Seekers Cloud:	$colors:(    "red":red,    "green":green,    "blue":blue,    "white":#fff);.btn{    background-color: map-get($colors , "blue" );}
+00:47:34	Ahamed:	ehenn Monday JS patn gnnavada?
+00:48:06	sewwandi:	ow sir. kamak ne sir kamathi vidiyak
+00:59:29	Dissanayaka:	.btn {  background-color: greenyellow;  border: none;  &:hover {    background-color: olivedrab;  }}aiyye meke mehema border: none dapuwama hover eketh nathi wenawane
+00:59:30	Dissanayaka:	ai e
+01:06:15	Srimali:	yes
+01:06:30	Madusha Lakshan:	naa habai
+01:07:48	Udara:	thank you aiye , good night
+01:07:51	Madusha Lakshan:	Ok sir thank you.. Good Night
+01:08:02	Ramesh Muthukumarana:	video aka danna
+01:08:04	buddhika:	gn bs
+01:08:08	Pandula:	Good night

@@ -1,0 +1,9 @@
+.nav-bar {
+    background-color: yellowgreen;
+    border: 1px solid black;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}

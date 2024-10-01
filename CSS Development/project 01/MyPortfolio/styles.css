@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header outer */
+.header-wrapper {
+    height: 120px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+/* Header inner */
+.header-inner {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    border: 1px solid #0d09e2;
+    border-radius: 7px;
+}
+
+/* Logo wrapper */
+.logo-wrapper {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #0d09e2;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation wrapper */
+.nav-wrapper {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper>ul {
+    border: 1px solid green;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-wrapper>ul>li {
+    border: 1px solid purple;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-wrapper>ul>li:last-child {
+    margin-right: 0;
+}
+
+.nav-wrapper>ul>li:hover {
+    color: #8b0b0b;
+    cursor: pointer;
+}
+
+.slider-container {
+    height: 800px;
+    border: 3px solid purple;
+    display: flex;
+}
+
+.slider-inner {
+    border: 2px solid greenyellow;
+    flex: 1;
+    width: 50%;
+}
+
+.left-slider {
+    background-image: url("https://img.freepik.com/free-photo/women-posing-selfie-with-paper-bags_23-2147689087.jpg?t=st=1725446922~exp=1725450522~hmac=85c62511db7c237c6d54b5dad902ded18cf51f07b7aafccef8301a4524ce5c78&w=1380");
+    background-repeat: no-repeat;
+    border: 1px solid green;
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    align-items: center;
+}
+
+.left-side-content-wrapper {
+    border: 1px solid brown;
+    padding: 20px;
+}
+
+.left-side-content-wrapper>h1 {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.pirata-one-regular {
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

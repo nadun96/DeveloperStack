@@ -1,0 +1,122 @@
+/* Nav Wrapper */
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Nav Container */
+.nav-container {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    margin: 10 auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #535da1;
+    color: white;
+    padding: 5px;
+}
+
+/* Navbar bran name Container */
+.navbar-brand {
+    display: flex;
+    width: 100px;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    align-content: flex-start;
+}
+
+.nav-items-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.nav-items-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+/* Navbar Items links */
+.nav-items-container nav a {
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: normal;
+}
+
+.nav-items-container ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.nav-items-container li {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+/* Navbar Items links hover */
+nav a:hover {
+    color: #14B789;
+    border-radius: 5px;
+}
+
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    /* Height of the underline */
+    background-color: #14B789;
+    /* Color of the underline */
+    transform: scaleX(0);
+    /* Start with no line */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+    transform-origin: right;
+    /* The line will grow from the right */
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+    /* Full width of the line on hover */
+    transform-origin: left;
+    /* The line will grow from the left on hover */
+}
+
+.nav-contact-container {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 10;
+    font-weight: bold;
+}
+
+
+.nav-contact-number-wrapper {
+    width: 200px;
+    height: 100%;
+}

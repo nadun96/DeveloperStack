@@ -1,0 +1,61 @@
+00:06:56	Ahamed:	ow
+00:08:06	Dissanayaka:	Me
+00:08:09	Gihanvs:	me
+00:08:10	Ahamed:	✋🏽
+00:08:15	buddhika:	me
+00:08:25	Nilupul Madhusanka:	hari aiye
+00:08:50	Sahan Ransika Perera:	screen aka share wela na aiye
+00:08:59	Dissanayaka:	Replying to "screen aka share wel..."
+
+shared
+00:13:21	Ahamed:	yah
+00:13:25	Nilupul Madhusanka:	yes
+00:22:13	Seekers Cloud:	https://github.com/Fmd-1-devstack/animation-1.git
+00:25:25	Nilupul Madhusanka:	hari aiye
+00:26:47	Anjula Wiraj Rathnayaka:	hari aiya
+00:27:03	KASUN KANISHKA:	done
+00:27:10	Gihanvs:	done
+00:27:18	buddhika:	done
+00:34:16	Dissanayaka:	penawa
+00:34:22	Nilupul Madhusanka:	penawa
+00:40:34	Dissanayaka:	yes
+00:40:35	Gihanvs:	ow
+00:40:39	KASUN KANISHKA:	yes
+00:40:42	buddhika:	ow
+00:40:54	kasun j:	Ayye signal issue  ekk tiynwd ,  podi lag wenwa wge mt witrd dnnh hbai
+00:41:55	Gihanvs:	git ekt push krd
+00:42:03	Sanjeewa Deshappriya:	GitHub link ek danna puluwn d
+00:42:16	Gihanvs:	https://github.com/Fmd-1-devstack/animation-1.git
+00:42:28	Sanjeewa Deshappriya:	mama late wela join une
+00:42:35	Seekers Cloud:	https://github.com/Fmd-1-devstack/animation-1
+00:44:43	Nilupul Madhusanka:	hari aiye
+00:45:35	Seekers Cloud:	https://static.vecteezy.com/system/resources/thumbnails/041/713/502/small_2x/ai-generated-majestic-snowy-peaks-of-a-high-mountain-range-on-transparent-background-stock-png.png
+00:47:23	Seekers Cloud:	https://i.pinimg.com/originals/97/2b/af/972baf30be0a1e7ab221dd20344afc0b.png
+00:47:43	Seekers Cloud:	https://pngimg.com/uploads/mountain/mountain_PNG30.png
+00:49:32	Gihanvs:	parent relative
+00:50:18	Seekers Cloud:	https://pngimg.com/uploads/mountain/mountain_PNG16.png
+00:53:12	Krishan:	z index
+00:55:59	Dissanayaka:	yes
+00:56:08	Nilupul Madhusanka:	yes
+00:56:12	Seekers Cloud:	z-index: 2;
+00:58:16	Gayal Kumara:	.rain{    width: 10px;    height: 10px;    border-radius: 50px;dunnama hima watena seen ekak enawa..
+00:58:21	Gayal Kumara:	😅
+00:59:48	Hemru Chamuditha:	Reacted to ".rain{
+    width: 10..." with ❤️
+01:01:06	Seekers Cloud:	https://codepen.io/Zano-Digital/pen/KKYOVaw
+01:01:20	Gayal Kumara:	Reacted to "https://codepen.io/Z..." with ❤️
+01:01:43	Seekers Cloud:	https://static.vecteezy.com/system/resources/thumbnails/012/595/172/small/realistic-white-cloud-png.png
+01:12:03	Seekers Cloud:	https://bruno-simon.com/
+01:12:12	Krishan:	meh three js da?
+01:14:37	Seekers Cloud:	https://i.postimg.cc/2SVfHC8d/car.png
+01:18:29	Dissanayaka:	no
+01:18:33	Dissanayaka:	interesting
+01:18:39	Gihanvs:	Reacted to "interesting" with ❤️
+01:18:40	KASUN KANISHKA:	nice
+01:28:06	Nilupul Madhusanka:	lag wenawa aiye
+01:30:36	Seekers Cloud:	.car-container {    border: 1px solid red;    position: absolute;    top: 10px;}.car {    width: 400px;    position: absolute;}.wheel {    width: 70px;    position: absolute;}.wheel-1 {    margin-left: 35px;    margin-top: 90px;}.wheel-2 {    margin-left: 280px;    margin-top: 90px;}
+01:31:24	Ahamed:	ow
+01:37:06	Gihanvs:	aiye drop wenw voice ek
+01:39:05	Gihanvs:	puluwn
+01:39:05	Dissanayaka:	yes
+01:44:15	Nilupul Madhusanka:	Thank You

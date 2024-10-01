@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header outer */
+.header-wrapper{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dotted rgba(44, 62, 80,1.0);
+    margin-bottom: 20px;
+}
+.header-inner{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+.logo-wrapper{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper{
+    /* width: 100%;
+    height: 100%; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-wrapper > ul{
+    list-style: none;
+    display: flex;
+}
+.nav-wrapper > ul > li{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-wrapper > ul > li:last-child{
+    margin: 0;
+}
+.nav-wrapper > ul > li:hover{
+    cursor: pointer;
+    color: #d35400;
+}
+/* header outer */
+
+/* Slider Outer */
+.slider-container{
+    height: 800px;
+    display: flex;
+}
+.slider-inner{
+    flex:1;
+}
+.left-slider{
+    display: flex;
+    align-items: center;
+    background-image: url('https://img.freepik.com/premium-photo/chic-confident-womans-shopping-adventure_687636-839.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+.left-side-content-wrapper{
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.left-side-content-wrapper> h1{
+    font-size: 45px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.left-side-content-wrapper> h4{
+    color: white;
+}
+.order-button{
+    background: none;
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 9px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.order-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 62, 80,0.6);
+    position: absolute;
+    /* opacity: 0.2; */
+}
+
+.right-slider{
+    display: flex;
+    flex-direction: column;
+}
+.slider-right-wrapper{
+    flex: 1;
+    display: flex;
+}
+.sldier-right-slot{
+    flex:1;
+    background-image: url('https://img.freepik.com/free-photo/adult-woman-posing-with-shopping-bags_23-2148660623.jpg?t=st=1724690532~exp=1724694132~hmac=68c129419dcbda7d240c5a3e774097ada214a4ea5d0012f532ad4d266475af61&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-wrapper{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(44, 62, 80,0.9);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+.sldier-right-slot:hover .data-wrapper{
+    display: flex!important;
+}
+
+/* Slider Outer */
+
+/* product Outer */
+.product-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-inner{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.product-image-context{
+    flex: 1;
+    background-image: url('https://img.freepik.com/free-photo/men39s-clothes-hanger-generative-ai_169016-29035.jpg?t=st=1725030944~exp=1725034544~hmac=b3ebcf74c965381612e0b8313178dbb2ad69632bf192854ab0b39955e430eae5&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    overflow: hidden;
+}
+.product-image-context:hover .hidden-items-context{
+    bottom: 10px;
+}
+.product-detail-context{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.name-rate-container, .price-container{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.hidden-items-context{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -65px;
+}
+.hidden-items-inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hidden-item{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* product Outer */
+
+/* About Outer */
+.about-container{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.about-inner{
+    height: auto;
+    min-height: 500px;
+    width: 70%;
+    display: flex;
+}
+.about{
+    flex: 1;
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-left h1,p{
+    margin-bottom: 25px;
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.about-left button{
+    padding: 8px 15px;
+    background: none;
+    border: 1px solid black;
+}
+.about-left button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+/* About Outer */
+/* Social Outer */
+.social-container{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.social-inner{
+    width: 75%;
+    height: auto;
+}
+.social-slider{
+    width: 100%;
+    height: 150px;
+
+    margin-top: 20px;
+    display: flex;
+}
+.social-elemet{
+    flex: 1;
+    background-image: url('https://img.freepik.com/free-photo/shot-happy-african-american-woman-chooses-new-clothes-showroom-picks-up-purple-turtleneck-hangers-stands-set-white-clothing-hangers_273609-32785.jpg?t=st=1725036135~exp=1725039735~hmac=d3db71416c215029bd427f2e00038368fbf590f752f0228eebafe33b31440d40&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.social-elemet:hover .social-shadow{
+    display: block;
+}
+.social-shadow{
+    background-color: rgba(44, 62, 80,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+/* Social Outer */
+
+/* Footer Outer */
+footer{
+    width: 100%;
+    height: auto;
+
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-inner{
+    width: 75%;
+    height: auto;
+    display: flex;
+}
+.footer-slot{
+    flex:1;
+}
+.footer-slot h3{
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-slot ul{
+    list-style: none;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-slot ul li{
+    margin-bottom: 8px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+/* Footer Outer */

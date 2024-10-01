@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <style>
+        /* .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        } */
+
+        /* .box-1 {
+            position: absolute;
+            background-color: green;
+            left: 50px;
+            z-index: 1;
+            /* Higer the Number , Higher the Priority */
+
+        /* } */
+
+        /* .box-2 {
+            position: absolute;
+            background-color: blue;
+            right: 0;
+            bottom: 0;
+        } */
+
+        /* .box-3 {
+            position: fixed;
+            background-color: yellow;
+            right: 150px;
+            bottom: 0px;
+        } */
+
+        /* .box-4 {
+            position: sticky;
+            background-color: pink;
+            margin-top: 500px;
+            top: 0px;
+        } */
+
+        .container {
+            /* width: 500px;
+            border: 1px solid darkcyan;
+            height: 500px; */
+            /* position: relative; */
+            /* display: flex; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; */
+            /* justify-content: flex-start; */
+            /* justify-content: space-between; */
+            width: 500px;
+            height: 200px;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* /* .box { */
+        /* margin-top: 10px;
+            margin-left: 10px; */
+        /* width: 100px;
+        height: 100px;
+        border: 1PX solid red;
+        display: flex;
+
+        justify-content: center;
+        align-items: center; */
+        /* display: inline; */
+        /* top: 200px;
+            right: 50px;
+            position: absolute;
+            background-color: red; */
+        /* } */
+        .box {
+            background-color: green;
+            flex: 1;
+        }
+
+        .search-outer {
+            width: 450px;
+            height: 50px;
+            border: 1px solid red;
+            border-radius: 25px;
+            display: flex;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .icon-outer {
+            width: 50px;
+            height: 100%;
+            /* border: 1px solid blue; */
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-outer:hover {
+            color: #8e44ad;
+            cursor: pointer;
+        }
+
+        .search {
+            flex: 1;
+            /* border: 1px solid green; */
+            display: flex;
+
+        }
+
+        .search input {
+            flex: 1;
+            padding: 0 8;
+            font-size: 20px;
+            background: none;
+            border: none;
+
+        }
+
+        .search input::placeholder {
+            color: #f1c40f;
+        }
+
+        .search input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body style="height: 5000px;">
+    <!-- positions -->
+    <!-- <div class="box-1">1</div>
+    <div class="box-2">2</div>
+    <div class="box-3">3</div>
+    <div class="box-4">4</div>
+    <div class="box-5">5</div> -->
+    <!-- <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div> -->
+    <div class="container">
+        <!-- <div class="box" style="background-color: aqua;"></div>
+        <div class="box" style="background-color: azure;"></div> -->
+        <div class="search-outer">
+            <div class="icon-outer"><span class="material-symbols-outlined">
+                    search
+                </span></div>
+            <div class="search"><input type="search" placeholder="Search....."></div>
+            <div class="icon-outer"><span class="material-symbols-outlined">
+                    mic
+                </span></div>
+            <div class="icon-outer"><span class="material-symbols-outlined">
+                    photo_camera
+                </span></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
