@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log("------------------------------------")
+        const customer = {
+            name: 'John',
+            age: 25,
+            isEligible: true,
+            address: {
+                city: 'New York',
+                country: 'USA'
+            },
+            sayHi: function () {
+                console.log('Hello');
+            },
+            printHello() {
+                console.log('Hello');
+            }
+        }
+        customer.sayHi();
+        customer.printHello();
+        console.log("------------------------------------")
+        let arr = [];
+        arr.push("Nimal");
+        console.log(arr);
+        arr.push("Kamal");
+        console.log(arr);
+        arr.push("Suresh");
+        console.log(arr);
+        arr.pop();
+        console.log(arr);
+        arr.shift();
+        console.log(arr);
+        arr.unshift("Nimal");
+        console.log(arr);
+        // arr.splice(1, 0, "Kamal");
+        // console.log(arr);
+        // arr.splice(2, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        // arr.splice(1, 1, "Kamal");
+        // console.log(arr);
+        // arr.splice(1, 1, "Suresh");
+        // console.log(arr);
+        console.log("------------------------------------")
+        for (let i = 0; i < 5; i++) {
+            console.log(arr[i]);
+        }
+        console.log("------------------------------------")
+        arr.push("Sudam");
+        arr.push("Senal");
+        console.log("------------------------------------")
+        for (x of arr) {
+            console.log(x);
+        }
+        console.log("------------------------------------")
+        // add item to index
+        arr.splice(2, 0, "Kamal");
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.shift();
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.unshift("Nimal");
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.pop();
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.splice(1, 1, "Suresh");
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.splice(1, 1, "Kamal");
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.splice(1, 1, "Suresh");
+        console.log(arr);
+        console.log("------------------------------------")
+        arr.splice(1, 1, "Kamal");
+        console.log(arr);
+        console.log("----------")
+        arr.splice(1, 1, "Suresh");
+        console.log(arr);
+        console.log("----------")
+        const map = [1, 2, 3, 4, 5];
+        const doubledMap = map.map(x => x * 2);
+        console.log(doubledMap);
+        console.log("----------")
+        const filteredMap = map.filter(x => x % 2 === 0);
+        console.log(filteredMap);
+        console.log("----------")
+        const reducedMap = map.reduce((acc, curr) => acc + curr, 0);
+        console.log(reducedMap);
+        console.log("----------")
+        const sortedMap = map.sort((a, b) => a - b);
+        console.log(sortedMap);
+        console.log("----------")
+        const findMap = map.find(x => x === 3);
+        console.log(findMap);
+        console.log("----------")
+        const findIndexMap = map.findIndex(x => x === 3);
+        console.log(findIndexMap);
+        console.log("----------")
+        const someMap = map.some(x => x === 3);
+        console.log(someMap);
+        console.log("----------")
+        const everyMap = map.every(x => x < 6);
+        console.log(everyMap);
+        console.log("----------")
+        const joinMap = map.join(" - ");
+        console.log(joinMap);
+        console.log("----------")
+        const sliceMap = map.slice(1, 3);
+        console.log(sliceMap);
+        console.log("----------")
+        const spliceMap = map.splice(1, 2, 10, 20);
+        console.log(spliceMap);
+        console.log(map);
+        console.log("----------")
+        const forEachMap = map.forEach(x => console.log(x));
+        console.log(forEachMap);
+        console.log("----------")
+        const mapKeys = map.keys();
+        console.log(mapKeys);
+        console.log("----------")
+        const mapValues = map.values();
+        console.log(mapValues);
+        console.log("----------")
+        const mapEntries = map.entries();
+        console.log(mapEntries);
+        console.log("----------")
+        const mapForEach = map.forEach((value, key) => console.log(key, value));
+        console.log(mapForEach);
+        console.log("----------")
+        const mapFilter = map.filter(x => x % 2 === 0);
+        console.log(mapFilter);
+        console.log("----------")
+        const mapReduce = map.reduce((acc, curr) => acc + curr, 0);
+        console.log(mapReduce);
+        console.log("----------")
+        const mapSort = map.sort((a, b) => a - b);
+        console.log(mapSort);
+        console.log("----------")
+        const mapFind = map.find(x => x === 3);
+        console.log(mapFind);
+        console.log("----------")
+        const mapFindIndex = map.findIndex(x => x === 3);
+        console.log(mapFindIndex);
+        console.log("----------")
+        const mapSome = map.some(x => x === 3);
+        console.log(mapSome);
+        console.log("----------")
+        const mapEvery = map.every(x => x < 6);
+        console.log(mapEvery);
+        console.log("----------")
+        const mapJoin = map.join(" - ");
+        console.log(mapJoin);
+        console.log("----------")
+        const mapSlice = map.slice(1, 3);
+        console.log(mapSlice);
+        console.log("----------")
+        const mapSplice = map.splice(1, 2, 10, 20);
+        console.log(mapSplice);
+        console.log(map);
+        console.log("----------")
+        const mapKeysForEach = map.keys().forEach(key => console.log(key));
+        console.log(mapKeysForEach);
+        console.log("----------")
+        const mapValuesForEach = map.values().forEach(value => console.log(value));
+        console.log(mapValuesForEach);
+        console.log("----------")
+        const mapEntriesForEach = map.entries().forEach(([key, value]) => console.log(key, value));
+        console.log(mapEntriesForEach);
+        console.log("----------")
+        const mapForEachForEach = map.forEach((value, key) => console.log(key, value));
+        console.log(mapForEachForEach);
+        console.log("----------")
+        const mapFilterFilter = map.filter(x => x % 2 === 0);
+        console.log(mapFilterFilter);
+        console.log("----------")
+        // assign 0 - 100 to an array
+        const arr1 = [];
+        for (let i = 0; i <= 100; i++) {
+            arr1.push(i);
+        }
+        console.log(arr1);
+        console.log("----------")
+        // same using map
+        const arr2 = Array.from({ length: 101 }, (_, i) => i);
+        console.log(arr2);
+        console.log("----------")
+        // fiter odd 
+        const arr3 = arr2.filter(x => x % 2 !== 0);
+        console.log(arr3);
+        console.log("----------")
+        // reduce tutorial
+        const arr4 = [1, 2, 3, 4, 5];
+        const sum = arr4.reduce((acc, curr) => acc + curr, 0);
+        console.log(sum);
+        console.log("----------")
+        // reduce tutorial
+        const arr5 = [1, 2, 3, 4, 5];
+        const product = arr5.reduce((acc, curr) => acc * curr, 1);
+        console.log(product);
+        console.log("----------")
+        // reduce tutorial
+        const arr6 = [1, 2, 3, 4, 5];
+        const max = arr6.reduce((acc, curr) => Math.max(acc, curr));
+        console.log(max);
+        console.log("----------")
+        // reduce tutorial
+        const arr7 = [1, 2, 3, 4, 5];
+        const min = arr7.reduce((acc, curr) => Math.min(acc, curr));
+        console.log(min);
+        console.log("----------")
+        // reduce tutorial
+        const arr8 = [1, 2, 3, 4, 5];
+        const join = arr8.reduce((acc, curr) => acc + curr, "");
+        console.log(join);
+        console.log("----------")
+        // reduce tutorial
+        const arr9 = [1, 2, 3, 4, 5];
+        const joinWithComma = arr9.reduce((acc, curr) => acc + curr + ",", "");
+        console.log(joinWithComma);
+        console.log("----------")
+        // reduce tutorial
+        const arr10 = [1, 2, 3, 4, 5];
+        const joinWithSpace = arr10.reduce((acc, curr) => acc + " " + curr, "");
+        console.log(joinWithSpace);
+        console.log("----------")
+        arr1.slice(1, 3);
+        console.log(arr1);
+        console.log("----------")
+        function execute(x, y) {
+            if (y == 0) {
+                throw new Error("cannot devide by 0");
+            }
+            return x / y;
+        }
+        try {
+            let answer = execute(10, 0);
+            console.log(answer);
+        } catch (error) {
+            console.log(error.message);
+        }
+    </script>
+</body>
+
+</html>
