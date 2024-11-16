@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function fetchData() {
+        //     let data = 'Fetching Data .... loading';
+        //     setTimeout(() => {
+        //         data = 'data list';
+        //     }, 3000);
+        //     return data;
+        // }
+        // console.log("data fetching started...");
+        // let data = fetchData();
+        // console.log("data fetched...")
+        // console.log(data);
+
+        // let data = 'Fetching Data .... loading';
+
+        // function fetchData(callback) {
+        //     setTimeout(() => {
+        //         data = 'data list';
+        //         callback();
+        //     }, 3000);
+        // }
+
+        // function load() {
+        //     console.log("data fetching started...");
+        //     console.log(data);
+        //     console.log("data fetched...")
+        // }
+
+        // fetchData(load);
+        let data = 'empty';
+        function fetchData(callback) {
+            fetch('https://jsonplaceholder.typicode.com/todos')
+                .then(response => response.json())
+                .then(json => { data = json; callback(data); })
+        }
+        fetchData(printData);
+        function printData() {
+            console.log("start printing data...");
+            console.log(data);
+            console.log("data printed...");
+        }
+
+        // fetch data without global data
+        function fetchData(callback) {
+            fetch('https://jsonplaceholder.typicode.com/todos')
+                .then(response => response.json())
+                .then(json => {
+                    callback(json); // Pass the fetched data to the callback
+                });
+        }
+
+        function printData(fetchedData) {
+            console.log("Start printing data...");
+            console.log(fetchedData); // Use the data passed to the function
+            console.log("Data printed...");
+        }
+
+        fetchData(printData); // Pass printData as the callback
+
+
+
+
+    </script>
+
+</body>
+
+</html>
